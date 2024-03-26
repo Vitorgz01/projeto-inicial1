@@ -1,89 +1,83 @@
-<!DOCTYPE html>
+<!-- Este é um comentário em HTML. -->
+<!DOCTYPE HTML><!-- Este é o DTD do HTML5. -->
+<!--
+Uma definição de tipo de documento (inglês: document type definition, DTD) é um conjunto de declarações de marcação.
+-->
+
 <html lang="pt-br">
+<!-- primeiro filho do html. -->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Basica</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width:device-width,initial-scale=1.0" />
+  <title>Página Básica</title>
+
+  <link rel="stylesheet" href="./css/estilo.css">
+
 </head>
 
 <body>
 
-  <div class="container">
+  <div id="container">
 
+    <header id="cabecalho">
+      <h1>Minha Página</h1>
 
-    <header class="cabecalho">
-
-      <h1 style="text-align: center;font-family:Tahoma, Verdana, sans-serif;">Minha Página</h1>
-
-      <nav class="menu">
+      <nav id="menu">
         <ul>
-          <li><a href="./paginas/help.html">Help</a></li>
-          <li><a href="./paginas/contac.html">Contatc</a></li>
-          <li><a href="./paginas/About.html">About</a></li>
+          <li class="link"><a href="./paginas/help.html"> <img src="./img/help.png"
+                alt="Interogação em um circulo."></a></li>
+          <li class="link"><a href="./paginas/about.html"><img src="./img/about.png" alt="Letra i em um circulo."></a>
+          </li>
+          <li class="link"><a href="./paginas/contact.html"><img src="./img/contact.png"
+                alt="Lapis escrevendo em um balão."></a></li>
         </ul>
       </nav>
-
 
     </header>
 
-    <section class="conteudo">
+    <section id="conteudo">
       <div>
-        <h2>sobre mim</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam recusandae asperiores, enim iure ad hic
-          placeat suscipit sapiente reprehenderit consectetur, quasi sed perspiciatis officiis harum cumque, obcaecati
-          non nam quia.</p>
+        <h2>Sobre mim...</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum velit debitis, iste accusamus iusto a aliquam
+          quae aut ipsa magnam dolorum, vero cumque rem maxime delectus laboriosam natus nihil atque consectetur
+          eveniet, repudiandae adipisci ipsam harum. Saepe inventore unde autem necessitatibus ipsam pariatur animi
+          placeat voluptatum quisquam. Possimus officiis, laborum impedit totam iusto excepturi vero facilis, voluptate,
+          omnis quas explicabo esse aliquid nostrum nemo neque. Natus laudantium provident sed assumenda, nemo corrupti,
+          quia cumque, facere optio adipisci mollitia. Rerum ipsum maxime quod, tenetur illum aut! Assumenda quae
+          sapiente minus nesciunt exercitationem veritatis fugit porro accusamus quis libero. Fugiat, nobis cupiditate.
+        </p>
       </div>
       <div>
         <h2>Skills</h2>
-        <p>Clipper,Visual basic,Cold-Fusion,C#,php,PYTHON,HTML,CSS e Javascript</p>
+        <p>Clipper,Visual Basic, Visual FOX-Pro, Cold-Fusion, SAP, SOA, Java, C#, PHP, Ruby, Python, HTML, CSS e
+          JavaScript.</p>
       </div>
       <div>
-        <h2>Portifílio</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In aut dolores sapiente at aliquam accusantium
-          beatae dolor molestiae nihil nisi.</p>
-        <span>algum projeto</span>
-    <nav class="menu">
-      <ul>
-       <li><a href="./paginas/help.html"><img src="./img/help.png" alt="Circulo com Interrogação" width="5%" ></a></li>
-        <li><a href="./paginas/About.html"><img src="./img/about.png" width='5%'   alt="Ciruclo com exclamação"></a></li>
-        <li><a href="./paginas/contac.html"><img src="./img/chat.png"width= '5%'  alt="Icone de contato"></a></li>
-      </ul>
-    </nav>
-    
-    
-  </header>
-  
-  <section class="conteudo">
-  <div>
-    <h2>sobre mim</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam recusandae asperiores, enim iure ad hic placeat suscipit sapiente reprehenderit consectetur, quasi sed perspiciatis officiis harum cumque, obcaecati non nam quia.</p>
-  </div>
-  <div>
-    <h2>Skills</h2>
-    <p>Clipper,Visual basic,Cold-Fusion,C#,php,PYTHON,HTML,CSS e Javascript</p>
-  </div>
-  <div>
-    <h2>Portifílio</h2>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In aut dolores sapiente at aliquam accusantium beatae dolor molestiae nihil nisi.</p>
-<span>algum projeto</span>
-
+        <h2>Portfólio</h2>
+        <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo autem veniam consequatur
+          tempore, voluptatum voluptas fugiat libero laboriosam nam.
+          <span>Algum projeto aqui. <a href="#">Projeto-1</a></span>
+        </p>
       </div>
     </section>
+    </section>
 
-    <footer class="rodape">
+    <footer id="rodape">
       <nav>
         <ul>
-          <li> <a href="https://www.fiap.com.br" target="_blank">FIAP </a></li>
-          <li><a href="http://www.google.com"></a>GOOGLE</li>
-          <li>GITHUB</li>
+          <li> <a href="https://www.fiap.com.br" target="_blank"> FIAP </a></li>
+          <li> <a href="https://www.google.com.br" target="_self">GOOGLE</a> </li>
+          <li> <a href="https://github.com" target="_blank">GITHUB</a> </li>
         </ul>
-
       </nav>
       <p>
-        Todos os direitos reservados &copf; 2024 -Minha pagina.
+        Todos os direitos reservados &copy; 2024 - Minha Pagina.
       </p>
     </footer>
+
+  </div>
+
 </body>
 
 </html>
